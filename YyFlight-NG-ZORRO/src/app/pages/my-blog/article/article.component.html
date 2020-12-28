@@ -1,0 +1,6 @@
+<h1>文章管理</h1>
+
+<div ace-editor [(text)]="text" [options]="options" [readOnly]="false" [autoUpdateContent]="true"
+  [durationBeforeCallback]="1000" (textChanged)="onChange($event)"
+  style="min-height: 500px; width:100%; overflow: auto;">
+</div>
